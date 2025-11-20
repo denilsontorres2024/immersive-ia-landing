@@ -105,10 +105,12 @@ const HeroSection = () => {
             <Button 
               variant="outline" 
               className="text-lg px-8 py-4 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105"
-              onClick={() => window.open('https://www.linkedin.com/in/denilson-torres-2002/', '_blank')}
+              asChild
             >
-              <Linkedin className="w-6 h-6 mr-2" />
-              <span>Ver Perfil no LinkedIn</span>
+              <a href="https://www.linkedin.com/in/denilson-torres-2002/" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="w-6 h-6 mr-2" />
+                <span>Ver Perfil no LinkedIn</span>
+              </a>
             </Button>
           </div>
 
