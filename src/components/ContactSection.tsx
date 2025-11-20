@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Phone, Instagram, Linkedin, Mail, MessageCircle } from "lucide-react";
+import { Phone, Linkedin, Mail, MessageCircle } from "lucide-react";
 const ContactSection = () => {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -22,15 +22,10 @@ const ContactSection = () => {
     value: "(11) 95814-9007",
     link: "http://wa.me/+11958149007"
   }, {
-    icon: Instagram,
-    label: "Instagram",
-    value: "@deniaitorres",
-    link: "https://instagram.com/deniaitorres"
-  }, {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/deniaitorres",
-    link: "https://linkedin.com/in/deniaitorres"
+    value: "linkedin.com/in/denilson-torres-2002",
+    link: "https://www.linkedin.com/in/denilson-torres-2002"
   }, {
     icon: Mail,
     label: "E-mail",
