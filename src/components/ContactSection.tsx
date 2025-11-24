@@ -111,7 +111,7 @@ const ContactSection = () => {
         {/* Footer */}
         <div className={`text-center mt-12 transition-all duration-1000 delay-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <div className="card-responsive">
-            <p className="text-xs text-muted-foreground">Proposta elaborada com IA utilizando GPT OSS - Demonstrando na prática como a tecnologia pode otimizar processos governamentais.</p>
+            <p className="text-xs text-muted-foreground">Proposta desenvolvida com modelos da OpenAI (por exemplo, GPT-5) — demonstrando na prática como a tecnologia pode otimizar processos governamentais.</p>
           </div>
         </div>
       </div>
